@@ -13,7 +13,7 @@ class BrpcConan(ConanFile):
     generators = "cmake"
 
     source_tgz = 'https://github.com/brpc/brpc/archive/%s.tar.gz' % version
-    checksum = '101f05858650a810c90e4872338222a1a3bf3b24de7b7d74466814e6a95c2d28'
+    checksum = 'e409994fb1fa191e9c34218d1d87d5fa375354acfe1448037a7dbf1b27fd1d6b'
 
     requires = ()
 
